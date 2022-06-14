@@ -1,7 +1,8 @@
 const Banner = ({ parentStyles, childStyles, name }) => (
   <div
     className={`relative w-full flex items-center z-0 overflow-hidden nft-gradient ${parentStyles}`}>
-    <p className={`font-bold text-5xl font-poppins leading-70 ${childStyles}`}>
+    <p
+      className={`font-bold text-5xl text-white font-poppins leading-70 ${childStyles}`}>
       {name}
     </p>
     <div className='absolute w-48 h-48 sm:w-32 sm:h-32 rounded-full white-bg -top-9 -left-16 -z-5 ' />

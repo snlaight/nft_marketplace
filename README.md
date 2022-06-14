@@ -13,3 +13,11 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+### santi notes
+
+if you get stuck, or get error messages, try running:
+
+`npx hardhat run scripts/deploy.js --network localhost`
+
+and then, on metamask, reset the user account.
